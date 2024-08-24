@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Symptom Checker</title>
+    <link href="stylee.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Symptom Checker</h1>
+    </header>
+    <main>
+      <section id="symptom-input">
+        <h2>Enter Your Symptoms</h2>
+        <textarea
+          id="symptoms"
+          placeholder="Enter your symptoms here..."
+        ></textarea>
+        <button id="check-symptoms">Check Symptoms</button>
+      </section>
+
+      <section id="results" class="hidden">
+        <h2>Test Recommendation</h2>
+        <p id="test-recommendation">Test recommendation will appear here</p>
+
+        <h2>Cure Recommendation</h2>
+        <p id="cure-recommendation">Cure recommendation will appear here</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
